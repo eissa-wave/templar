@@ -14,7 +14,7 @@ getcontext().prec = 60
 
 API_BASE = "https://app.templarfi.org/api/snapshots"
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
-THRESHOLD_PCT = 90
+THRESHOLD_PCT = 95
 
 DEPLOYMENTS = [
     "ibtc-ixlmusdc.v1.tmplr.near",
